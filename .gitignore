@@ -5,6 +5,7 @@ xcuserdata/
 *.build/
 build/
 DerivedData/
+*.xcworkspace/
 
 # Others
 .svn
