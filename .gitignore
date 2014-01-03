@@ -1,0 +1,11 @@
+# Xcode files
+xcuserdata/
+*.xccheckout
+# build products
+*.build/
+build/
+DerivedData/
+
+# Others
+.svn
+.DS_Store
