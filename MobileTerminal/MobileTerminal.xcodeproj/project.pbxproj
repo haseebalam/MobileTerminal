@@ -53,6 +53,19 @@
 		2C66C156101C54C800E4189B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C66C155101C54C800E4189B /* QuartzCore.framework */; };
 		2C72B32C101ABC2F00F10E63 /* libPreferences.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C11C9C91014035800A2746E /* libPreferences.a */; };
 		2C72B3E3101AC4D100F10E63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		43768CE518776AE400CC5C40 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 43768CD818776AE400CC5C40 /* Icon-72.png */; };
+		43768CE618776AE400CC5C40 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43768CD918776AE400CC5C40 /* Icon-72@2x.png */; };
+		43768CE718776AE400CC5C40 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 43768CDA18776AE400CC5C40 /* Icon-76.png */; };
+		43768CE818776AE400CC5C40 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43768CDB18776AE400CC5C40 /* Icon-76@2x.png */; };
+		43768CE918776AE400CC5C40 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 43768CDC18776AE400CC5C40 /* Icon-120.png */; };
+		43768CEA18776AE400CC5C40 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43768CDD18776AE400CC5C40 /* Icon-iPad-Spotlight-iOS7@2x.png */; };
+		43768CEB18776AE400CC5C40 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 43768CDE18776AE400CC5C40 /* Icon-Small-50.png */; };
+		43768CEC18776AE400CC5C40 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 43768CDF18776AE400CC5C40 /* Icon-Small.png */; };
+		43768CED18776AE400CC5C40 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43768CE018776AE400CC5C40 /* Icon-Small@2x.png */; };
+		43768CEE18776AE400CC5C40 /* Icon-Spotlight-iOS7.png in Resources */ = {isa = PBXBuildFile; fileRef = 43768CE118776AE400CC5C40 /* Icon-Spotlight-iOS7.png */; };
+		43768CEF18776AE400CC5C40 /* Icon-Spotlight-iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43768CE218776AE400CC5C40 /* Icon-Spotlight-iOS7@2x.png */; };
+		43768CF018776AE400CC5C40 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 43768CE318776AE400CC5C40 /* Icon.png */; };
+		43768CF118776AE400CC5C40 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43768CE418776AE400CC5C40 /* Icon@2x.png */; };
 		9F24A70111D7C6EF00E6EFC0 /* MenuSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F24A6FF11D7C6EF00E6EFC0 /* MenuSettingsViewController.h */; };
 		9F24A70211D7C6EF00E6EFC0 /* MenuSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F24A70011D7C6EF00E6EFC0 /* MenuSettingsViewController.m */; };
 		9F24A7FF11D7EE8100E6EFC0 /* MenuEditViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F24A7FD11D7EE8100E6EFC0 /* MenuEditViewController.h */; };
@@ -63,13 +76,6 @@
 		9F3B52181222140200682793 /* GestureEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B52161222140200682793 /* GestureEditViewController.m */; };
 		9F3B5244122217C400682793 /* GestureSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3B5242122217C400682793 /* GestureSettingsViewController.h */; };
 		9F3B5245122217C400682793 /* GestureSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B5243122217C400682793 /* GestureSettingsViewController.m */; };
-		9F6B6D5312297447007BAD59 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B6D4F12297447007BAD59 /* Icon-Small.png */; };
-		9F6B6D5412297447007BAD59 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B6D5012297447007BAD59 /* Icon-Small@2x.png */; };
-		9F6B6D5512297447007BAD59 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B6D5112297447007BAD59 /* Icon.png */; };
-		9F6B6D5612297447007BAD59 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B6D5212297447007BAD59 /* Icon@2x.png */; };
-		9F6B6D5912297452007BAD59 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B6D5712297452007BAD59 /* Icon-72.png */; };
-		9F6B6D5A12297452007BAD59 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B6D5812297452007BAD59 /* Icon-Small-50.png */; };
-		9F6B6D7E12297740007BAD59 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B6D7D12297740007BAD59 /* Default.png */; };
 		9F6B6D9912297822007BAD59 /* GestureActionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B6D9812297822007BAD59 /* GestureActionRegistry.m */; };
 		9F6B6E481229A71E007BAD59 /* GestureInputActions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B6E311229A55B007BAD59 /* GestureInputActions.plist */; };
 		9F74BF7111D326890013DA87 /* PreferencesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F74BF6F11D326890013DA87 /* PreferencesViewController.h */; };
@@ -233,6 +239,19 @@
 		2C72B2BB101ABA9100F10E63 /* PreferencesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreferencesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C72B2BC101ABA9100F10E63 /* PreferencesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PreferencesTests-Info.plist"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MobileTerminal_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTerminal_Prefix.pch; sourceTree = "<group>"; };
+		43768CD818776AE400CC5C40 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		43768CD918776AE400CC5C40 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		43768CDA18776AE400CC5C40 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		43768CDB18776AE400CC5C40 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		43768CDC18776AE400CC5C40 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		43768CDD18776AE400CC5C40 /* Icon-iPad-Spotlight-iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad-Spotlight-iOS7@2x.png"; sourceTree = "<group>"; };
+		43768CDE18776AE400CC5C40 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		43768CDF18776AE400CC5C40 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		43768CE018776AE400CC5C40 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		43768CE118776AE400CC5C40 /* Icon-Spotlight-iOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-iOS7.png"; sourceTree = "<group>"; };
+		43768CE218776AE400CC5C40 /* Icon-Spotlight-iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-iOS7@2x.png"; sourceTree = "<group>"; };
+		43768CE318776AE400CC5C40 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		43768CE418776AE400CC5C40 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MobileTerminal-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MobileTerminal-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9F24A6FF11D7C6EF00E6EFC0 /* MenuSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuSettingsViewController.h; path = Preferences/MenuSettingsViewController.h; sourceTree = "<group>"; };
 		9F24A70011D7C6EF00E6EFC0 /* MenuSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuSettingsViewController.m; path = Preferences/MenuSettingsViewController.m; sourceTree = "<group>"; };
@@ -244,13 +263,6 @@
 		9F3B52161222140200682793 /* GestureEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GestureEditViewController.m; path = Preferences/GestureEditViewController.m; sourceTree = "<group>"; };
 		9F3B5242122217C400682793 /* GestureSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestureSettingsViewController.h; path = Preferences/GestureSettingsViewController.h; sourceTree = "<group>"; };
 		9F3B5243122217C400682793 /* GestureSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GestureSettingsViewController.m; path = Preferences/GestureSettingsViewController.m; sourceTree = "<group>"; };
-		9F6B6D4F12297447007BAD59 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Icon-Small.png"; sourceTree = "<group>"; };
-		9F6B6D5012297447007BAD59 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
-		9F6B6D5112297447007BAD59 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
-		9F6B6D5212297447007BAD59 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
-		9F6B6D5712297452007BAD59 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources-iPad/Icon-72.png"; sourceTree = "<group>"; };
-		9F6B6D5812297452007BAD59 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources-iPad/Icon-Small-50.png"; sourceTree = "<group>"; };
-		9F6B6D7D12297740007BAD59 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 		9F6B6D9712297822007BAD59 /* GestureActionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureActionRegistry.h; sourceTree = "<group>"; };
 		9F6B6D9812297822007BAD59 /* GestureActionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureActionRegistry.m; sourceTree = "<group>"; };
 		9F6B6E311229A55B007BAD59 /* GestureInputActions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GestureInputActions.plist; sourceTree = "<group>"; };
@@ -408,14 +420,20 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				43768CD818776AE400CC5C40 /* Icon-72.png */,
+				43768CD918776AE400CC5C40 /* Icon-72@2x.png */,
+				43768CDA18776AE400CC5C40 /* Icon-76.png */,
+				43768CDB18776AE400CC5C40 /* Icon-76@2x.png */,
+				43768CDC18776AE400CC5C40 /* Icon-120.png */,
+				43768CDD18776AE400CC5C40 /* Icon-iPad-Spotlight-iOS7@2x.png */,
+				43768CDE18776AE400CC5C40 /* Icon-Small-50.png */,
+				43768CDF18776AE400CC5C40 /* Icon-Small.png */,
+				43768CE018776AE400CC5C40 /* Icon-Small@2x.png */,
+				43768CE118776AE400CC5C40 /* Icon-Spotlight-iOS7.png */,
+				43768CE218776AE400CC5C40 /* Icon-Spotlight-iOS7@2x.png */,
+				43768CE318776AE400CC5C40 /* Icon.png */,
+				43768CE418776AE400CC5C40 /* Icon@2x.png */,
 				9FE6971312E240C200EDE939 /* control.def */,
-				9F6B6D7D12297740007BAD59 /* Default.png */,
-				9F6B6D5712297452007BAD59 /* Icon-72.png */,
-				9F6B6D5812297452007BAD59 /* Icon-Small-50.png */,
-				9F6B6D4F12297447007BAD59 /* Icon-Small.png */,
-				9F6B6D5012297447007BAD59 /* Icon-Small@2x.png */,
-				9F6B6D5112297447007BAD59 /* Icon.png */,
-				9F6B6D5212297447007BAD59 /* Icon@2x.png */,
 				2C72B2BC101ABA9100F10E63 /* PreferencesTests-Info.plist */,
 				2C11C5B41013A5AF00A2746E /* VT100Tests-Info.plist */,
 				2899E5210DE3E06400AC0155 /* MobileTerminalViewController.xib */,
@@ -771,6 +789,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MobileTerminal" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -800,18 +820,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43768CF018776AE400CC5C40 /* Icon.png in Resources */,
+				43768CF118776AE400CC5C40 /* Icon@2x.png in Resources */,
+				43768CE618776AE400CC5C40 /* Icon-72@2x.png in Resources */,
+				43768CEA18776AE400CC5C40 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
+				43768CE818776AE400CC5C40 /* Icon-76@2x.png in Resources */,
+				43768CEE18776AE400CC5C40 /* Icon-Spotlight-iOS7.png in Resources */,
+				43768CEC18776AE400CC5C40 /* Icon-Small.png in Resources */,
+				43768CE718776AE400CC5C40 /* Icon-76.png in Resources */,
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* MobileTerminalViewController.xib in Resources */,
 				9FB73ED911C476BA005E3764 /* MainWindow-iPad.xib in Resources */,
-				9F6B6D5312297447007BAD59 /* Icon-Small.png in Resources */,
-				9F6B6D5412297447007BAD59 /* Icon-Small@2x.png in Resources */,
-				9F6B6D5512297447007BAD59 /* Icon.png in Resources */,
-				9F6B6D5612297447007BAD59 /* Icon@2x.png in Resources */,
-				9F6B6D5912297452007BAD59 /* Icon-72.png in Resources */,
-				9F6B6D5A12297452007BAD59 /* Icon-Small-50.png in Resources */,
-				9F6B6D7E12297740007BAD59 /* Default.png in Resources */,
 				9F6B6E481229A71E007BAD59 /* GestureInputActions.plist in Resources */,
+				43768CEF18776AE400CC5C40 /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				9F86D380123D386A00FAA3C4 /* PreferencesViewController.xib in Resources */,
+				43768CEB18776AE400CC5C40 /* Icon-Small-50.png in Resources */,
+				43768CE918776AE400CC5C40 /* Icon-120.png in Resources */,
+				43768CE518776AE400CC5C40 /* Icon-72.png in Resources */,
+				43768CED18776AE400CC5C40 /* Icon-Small@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1037,6 +1063,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1057,6 +1084,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MobileTerminal_Prefix.pch;

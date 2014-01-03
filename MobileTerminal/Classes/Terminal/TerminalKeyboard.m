@@ -51,23 +51,30 @@ static const int kControlCharacter = 0x2022;
 
 - (id)init:(TerminalKeyboard*)theKeyboard
 {
-  self = [super init];
-  if (self != nil) {
-    keyboard = theKeyboard;
-    [self setAutocapitalizationType:UITextAutocapitalizationTypeNone];
-    [self setAutocorrectionType:UITextAutocorrectionTypeNo];
-    [self setEnablesReturnKeyAutomatically:NO];
-    [self setKeyboardAppearance:UIKeyboardAppearanceDefault];
-    [self setKeyboardType:UIKeyboardTypeASCIICapable];
-    [self setReturnKeyType:UIReturnKeyDefault];
-    [self setSecureTextEntry:NO];
-
-    // Data to send in response to a backspace.  This is created now so it is
-    // not re-allocated on ever backspace event.
-    backspaceData = [[NSData alloc] initWithBytes:"\x7F" length:1];    
-    controlKeyMode = FALSE;
-  }
-  return self;
+    self = [super init];
+    if (self != nil) {
+        keyboard = theKeyboard;
+        [self setAutocapitalizationType:UITextAutocapitalizationTypeNone];
+        [self setAutocorrectionType:UITextAutocorrectionTypeNo];
+        [self setEnablesReturnKeyAutomatically:NO];
+        
+        if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
+            [self setKeyboardAppearance:UIKeyboardAppearanceDark];
+        }
+        else {
+            [self setKeyboardAppearance:UIKeyboardAppearanceAlert];
+        }
+        
+        [self setKeyboardType:UIKeyboardTypeASCIICapable];
+        [self setReturnKeyType:UIReturnKeyDefault];
+        [self setSecureTextEntry:NO];
+        
+        // Data to send in response to a backspace.  This is created now so it is
+        // not re-allocated on ever backspace event.
+        backspaceData = [[NSData alloc] initWithBytes:"\x7F" length:1];
+        controlKeyMode = FALSE;
+    }
+    return self;
 }
 
 - (void)deleteBackward
@@ -133,7 +140,7 @@ static const int kControlCharacter = 0x2022;
   NSMutableData* data = [NSMutableData  dataWithCapacity:0];
   [[keyboard inputDelegate] fillDataWithSelection:data];
   UIPasteboard* pb = [UIPasteboard generalPasteboard];
-  pb.string = [[NSString alloc] initWithData:data 
+  pb.string = [[NSString alloc] initWithData:data
                                     encoding:NSUTF8StringEncoding];
 }
 

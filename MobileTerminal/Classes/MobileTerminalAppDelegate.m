@@ -20,39 +20,40 @@
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application
 {
-  Settings* settings = [Settings sharedInstance];
-  settings.svnVersion = SVN_VERSION;
-  
-  [[UIApplication sharedApplication] setStatusBarHidden:YES];
-  
-  NSMutableArray* viewControllers = [[NSMutableArray alloc] init];
-  [viewControllers addObject:terminalViewController];  
-  [navigationController setViewControllers:viewControllers animated:NO];
-  [viewControllers release];
+    Settings* settings = [Settings sharedInstance];
+    settings.svnVersion = SVN_VERSION;
     
-  [window addSubview:navigationController.view];
-  [window makeKeyAndVisible];
-  inPreferences = FALSE;
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    
+    NSMutableArray* viewControllers = [[NSMutableArray alloc] init];
+    [viewControllers addObject:terminalViewController];
+    [navigationController setViewControllers:viewControllers animated:NO];
+    [navigationController setNavigationBarHidden:YES];
+    [viewControllers release];
+    
+    [window setRootViewController:navigationController];
+    [window makeKeyAndVisible];
+    inPreferences = FALSE;
 }
 
 static const NSTimeInterval kAnimationDuration = 1.00f;
 
 - (void)preferencesButtonPressed
 {
-  inPreferences = TRUE;
-  [navigationController setNavigationBarHidden:NO];
-  [navigationController pushViewController:preferencesViewController animated:YES];
+    inPreferences = TRUE;
+    [navigationController setNavigationBarHidden:NO];
+    [navigationController pushViewController:preferencesViewController animated:YES];
 }
 
 - (void)rootViewDidAppear
 {
-  if (inPreferences) {
-    [[Settings sharedInstance] persist];
-  }
-  inPreferences = TRUE;
-
-  // This must be invoked after the animation to show the root view completes
-  [navigationController setNavigationBarHidden:YES];  
+    if (inPreferences) {
+        [[Settings sharedInstance] persist];
+    }
+    inPreferences = TRUE;
+    
+    // This must be invoked after the animation to show the root view completes
+    [navigationController setNavigationBarHidden:YES];
 }
 
 @end
